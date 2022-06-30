@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f4cec9d5-80f3-457e-bb93-b3d160314a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{7b12c89e-625d-415b-b3d8-80dcb50201f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SHHeader.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SHQuantity.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SHGPU.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vectorUtil.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SHSolver.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SHParticles.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SHTimer.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel\tdm.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHQuantity.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHSolver.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHnitializer.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\main.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\vectorUtil.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHParticles.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHCore.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel\SHTimer.cu">
+      <Filter>kernel</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
